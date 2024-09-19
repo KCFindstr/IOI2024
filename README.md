@@ -40,7 +40,9 @@ Code is ready
 
 ## Hieroglyphs
 
-Haven't solved yet
+Code is ready $O(n)$
+
+> TODO: explain
 
 ## Mosaic
 

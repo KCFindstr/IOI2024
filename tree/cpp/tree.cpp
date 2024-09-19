@@ -58,9 +58,9 @@ void init(vector<int> P, vector<int> W) {
     if (leafCnt != parent.leafCnt)
       add(leafCnt, parent.leafCnt - 1, node.w);
   }
-  for (int i = costByCnt.size() - 2; i >= 0; i--)
+  for (int i = n - 2; i >= 0; i--)
     costByCnt[i] += costByCnt[i + 1];
-  for (int i = costByCnt.size() - 2; i >= 0; i--)
+  for (int i = n - 2; i >= 0; i--)
     costByCnt[i] += costByCnt[i + 1];
 }
 
